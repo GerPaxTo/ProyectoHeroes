@@ -33,9 +33,12 @@ class MapViewController: UIViewController {
             
             mapView.addAnnotation(coodenada)
             if i == 0 {
-                let region = MKCoordinateRegion(center: coodenada.coordinate, latitudinalMeters:10, longitudinalMeters: 10)
-                mapView.setRegion(region, animated: true)
-                i += 1
+                let region = MKCoordinateRegion(center: coodenada.coordinate, latitudinalMeters: 500, longitudinalMeters: 500)
+                if region.center.latitude >= -90 && region.center.latitude <= 90 && region.center.longitude >= -180 && region.center.longitude <= 180 {
+                    mapView.setRegion(region, animated: true)
+                    i += 1
+                }
+                
             }
          }
     }

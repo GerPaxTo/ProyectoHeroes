@@ -37,12 +37,12 @@
 		9E5E367D295396AC00AB5F9B /* Transformations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E5E367C295396AC00AB5F9B /* Transformations.swift */; };
 		9E5E368129539E4200AB5F9B /* transformationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E5E367F29539E4200AB5F9B /* transformationsViewController.swift */; };
 		9E5E368229539E4200AB5F9B /* transformationsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9E5E368029539E4200AB5F9B /* transformationsViewController.xib */; };
-		9E5E36842953AA7500AB5F9B /* HeroesTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E5E36832953AA7500AB5F9B /* HeroesTest.swift */; };
-		9E5E36862953AEEA00AB5F9B /* TransformationsTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E5E36852953AEEA00AB5F9B /* TransformationsTest.swift */; };
 		9E5E368A295D1DF300AB5F9B /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E5E3688295D1DF300AB5F9B /* SettingsViewController.swift */; };
 		9E5E368B295D1DF300AB5F9B /* SettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9E5E3689295D1DF300AB5F9B /* SettingsViewController.xib */; };
 		9EB1560529511E1D00B52BC6 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EB1560329511E1D00B52BC6 /* DetailsViewController.swift */; };
 		9EB1560629511E1D00B52BC6 /* DetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9EB1560429511E1D00B52BC6 /* DetailsViewController.xib */; };
+		9EDB520B297259DB002F7763 /* HeroesTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E5E36832953AA7500AB5F9B /* HeroesTest.swift */; };
+		9EDB520C297259DD002F7763 /* TransformationsTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E5E36852953AEEA00AB5F9B /* TransformationsTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -206,6 +206,8 @@
 			isa = PBXGroup;
 			children = (
 				9E2ADB6B2948FBD70017DCA5 /* Proyecto_MVCTests.swift */,
+				9E5E36832953AA7500AB5F9B /* HeroesTest.swift */,
+				9E5E36852953AEEA00AB5F9B /* TransformationsTest.swift */,
 			);
 			path = "Proyecto MVCTests";
 			sourceTree = "<group>";
@@ -215,8 +217,6 @@
 			children = (
 				9E2ADB752948FBD70017DCA5 /* Proyecto_MVCUITests.swift */,
 				9E2ADB772948FBD70017DCA5 /* Proyecto_MVCUITestsLaunchTests.swift */,
-				9E5E36832953AA7500AB5F9B /* HeroesTest.swift */,
-				9E5E36852953AEEA00AB5F9B /* TransformationsTest.swift */,
 			);
 			path = "Proyecto MVCUITests";
 			sourceTree = "<group>";
@@ -495,6 +495,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				9E2ADB6C2948FBD70017DCA5 /* Proyecto_MVCTests.swift in Sources */,
+				9EDB520C297259DD002F7763 /* TransformationsTest.swift in Sources */,
+				9EDB520B297259DB002F7763 /* HeroesTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -503,8 +505,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				9E2ADB782948FBD70017DCA5 /* Proyecto_MVCUITestsLaunchTests.swift in Sources */,
-				9E5E36842953AA7500AB5F9B /* HeroesTest.swift in Sources */,
-				9E5E36862953AEEA00AB5F9B /* TransformationsTest.swift in Sources */,
 				9E2ADB762948FBD70017DCA5 /* Proyecto_MVCUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
